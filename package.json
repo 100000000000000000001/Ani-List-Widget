@@ -1,0 +1,33 @@
+{
+  "name": "anilist-widget",
+  "version": "2.0.0",
+  "description": "Slash-command Discord bot that syncs AniList stats and manual favorites to a Discord profile widget.",
+  "main": "sync.js",
+  "author":"100000000000000000001",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/100000000000000000001/Ani-List-Widget/tree/main"
+  },
+  "bugs": {
+    "url": "https://github.com/100000000000000000001/Ani-List-Widget/issues"
+  },
+  "homepage": "https://github.com/100000000000000000001/Ani-List-Widget/blob/main/README.md",
+  "keywords": [
+    "anilist",
+    "discord-widget",
+    "profile-widget",
+    "sync",
+    "api",
+    "anime-stats"
+  
+  ],
+  "scripts": {
+    "start": "node sync.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}

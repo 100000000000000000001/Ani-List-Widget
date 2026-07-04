@@ -1,0 +1,295 @@
+{
+  "_type": "discord-widget",
+  "version": 2,
+  "display_name": "AniList",
+  "surfaces": {
+    "widget_bottom": {
+      "layout": "widget_bottom_stats",
+      "components": {
+        "stat_5": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "number",
+              "value": "total_chapters_read",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "manga"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Chapters Read"
+            }
+          }
+        },
+        "stat_1": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "number",
+              "value": "total_anime",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "playarrow"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Total Anime Watched"
+            }
+          }
+        },
+        "stat_3": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "mean_score",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0.0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "rating"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Mean Score"
+            }
+          }
+        },
+        "stat_2": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "days_watched",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0.0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "calendar"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Days Watched"
+            }
+          }
+        },
+        "stat_4": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "number",
+              "value": "total_manga",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "book"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Total Manga Read"
+            }
+          }
+        },
+        "stat_6": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "number",
+              "value": "total_volumes_read",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "0"
+              }
+            },
+            "icon": {
+              "value_type": "application_asset",
+              "presentation_type": "image",
+              "value": "volumes"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Volumes Read"
+            }
+          }
+        }
+      }
+    },
+    "mini_profile": {
+      "layout": "mini_profile_hero_stat",
+      "components": {
+        "stat": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "username"
+            }
+          }
+        },
+        "hero_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "character_image"
+            }
+          }
+        }
+      }
+    },
+    "widget_top": {
+      "layout": "widget_top_hero",
+      "components": {
+        "title": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "name",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "Loading..."
+              }
+            }
+          }
+        },
+        "subtitle_1": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "favorite_anime",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "Favorite Anime: syncing..."
+              }
+            }
+          }
+        },
+        "subtitle_3": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "favorite_character",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "Favorite Character: syncing..."
+              }
+            }
+          }
+        },
+        "hero_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "avatar"
+            }
+          }
+        },
+        "subtitle_2": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "favorite_manga",
+              "fallback": {
+                "value_type": "custom_string",
+                "presentation_type": "text",
+                "value": "Favorite Manga: syncing..."
+              }
+            }
+          }
+        }
+      }
+    },
+    "add_widget_preview": {
+      "layout": "add_widget_preview_hero",
+      "components": {
+        "hero_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "username"
+            }
+          }
+        }
+      }
+    }
+  },
+  "assets": {
+    "manga": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACsklEQVR4AeyVu4sTURTGZ/JCJCApRM1TFrTcQgg2FlYibKfGysVCW20EZS1EsFDBRv+AxUILly0sRBALCxuLBdlywSTkQQIbhG2ECEnG3znkDslsZpJlM6bZ4X73nuf9zn3MTMRa8PNfCmg2mx/81hl6AULuOM7NhRQwjVyKCm0HZiH3LaDdbp+s1+sPGo3GJ7DDZN/R3yJflqRpIG4jaNtH890dKJfLJyCqkuz0er1d27ZfEbgCzjPZJfTbyN/EL6jVavfR9zV8GxhLYGIjb63T6ZwxTi2ApKeJRGIPorPGAWEf/Sv6O/AZ7AK3RSKR1+Q5rgEBPZCcEIu8pW632yL2kerSgRtA2m+6c7lczs5ms7F8Pn8FeRWsgFPAFhDzHow1dk9eNd+VjwWjsLhVBkt3AMUWBXyE4BdjYCPmljeAOXxfNU+scrHDatYCVFpQd1SA7gDnYW6zGcM8EOXgziiHFoCiFwOLGRHn13j1LozMphwsWk1agEohdclkMpXJZH76TR9qAXxLIqlUas+PXOyhFMCR/uVbYfPoeQuRH8IooMYX9Jgfodc+7wK+sHL3f+Ilm6TPrQC2+xnkVyeRBNnmVgAX7kkQkZ9PC6B6c1kcfpMvgYx++NFqtY57J6xWq6fJ2wZ+eWJ/Q55ycVERrX1/w7tYH4KgdrHf7/8xAZVKZVlIY7FYG9syCGr3cAqHxaIRhwWg7Kg27KjuOVsa50z1/29G4kr4qsMwHeLx+LYKdOIbDAYlE29GmQv3CzDalFOPgMBreNb5ZOaRbV6jx5D1sI01JtrEtyQxkG0Zp8hiE1+hUNg0djPKXPjXgC0c2NeRrzNaWoAIGO7wyWyIPAsgK0aj0SLkRZFnyZEY4RAukQVuAaIcFOl0egtydycOmi/xhypAJjgsjgoIfQemHdE/AAAA///MgCdmAAAABklEQVQDAJ8vM1D/UK+FAAAAAElFTkSuQmCC"
+    },
+    "playarrow": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABqUlEQVR4AeyUr07EQBDGrwchEBCkjoT+yQVNMTjEGRQeQbAIngHLG2AQWAQCxwOAwJGQCtQJkrYkpKKIA9FAu3xz6SYrrmE73Qu5pE2/25ltut9v5nbb7/3z1QF0HZifDsRxvDKLA6PdgbIsB4D4CcNw1SSINkBlumDb9idArqu89dAUQBoeAUJAW3KCO3IBpN8IEKFMOCMLwHEcC2ZPEN3bgBBJkhxQ0lQsADIBxG5RFAOKSUKIO4B8UNxEbAAy8X3/FSDUDbkp1wEhoig6o+c6agUgDQBxnGXZGvIC6lmWdQ6QIk1TmqOpWhkBoNWDIPgCyCLMZfX9PM/HALml53UyBqAYDJWYwnv6qZMxAJyCHVSLvSj2yQzBOzpiQReU18kIAIxHMHxWTIau624oeW3YCgBVH8JcYPXJFxH//yMqpqofMKd1swBQrQXjMcYbxWUT156Sa4UsAFReYvXJEUPVl1XVb5hrfLMAKpccFS9Bp1XOGrgAJ6h6GdV/s1yVl5oCxDCmTXalrNEq1AbwPO8F5m4rtykvawNMedfIVAfQdWDmHfhrp/4CAAD//3L9vBoAAAAGSURBVAMAKGiGQfkiOOwAAAAASUVORK5CYII="
+    },
+    "rating": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,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"
+    },
+    "calendar": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEC0lEQVR4Aeyaz2sTQRTHm7ZWPQiCp5q2NGDBH0GL1l9VFEWo+L+IJxG8Cx48ePB/qVSK9UdrS1O0qPUiJP2RUw7SkxBC4mfKjszMZrMz6Zbubra819k382bmfb/zZne62/6+Hv/JCOjxBOjLMiDLgH0ysLW1Nbezs1OWKux9DhnYXYwt5xGlsAOdLRui2AL5Vqs1LjWXy522nLsbt8jnioKAboDEpk9GgO1SVKvVafbcqth7qpLyZ4wxJtT2KK9t5hIxbm9vXzdiCjStMoABfzWbzUUCmJJ7XZaMPISqMiTboi6ZJHQuESN+yxDxkzJUQgkA/EtGOYsmSiDiPNn3IizoUAIY4BmaSCEDn4cFbkOANkaj0SjEWbVgLQxnAgqFQiXOaoFZc3EmQOudQMMMOSPAZKTX7CwDem3FTbxZBpiM9JrtnAEcjVtxVtcFdCbAdYK4+2cExH2FDjo+5wwYHR3NxVldCXMmwHWCuPtnBMR9hQ46vtRlAK/CKqqGEZg6AkZGRgqq9hwBYYDN9tRlgAkwzE4tAeVy+SRvhY/0HAH8ofYabQ0ODv7hu0BdXG9ubl4JIiJVGQDYtwB9gmrS399fgoz7WqVnpIYAPoW9A9MM2lbYDvMQ9NBsTAUBAJvn2f/ABNfGnq1UKjfV+sQTAPgFALVNb+p9MjAwsKRWJpoA0v4DYO6iTlKr1U7IDoklAPCfSfs7EohLybfNY9I/kQSQ9kuAvyVBuJbDw8M12SdxBAB+heC1Gxm2tfA0eKU6J4oA0n6V4K+hmvDHT+iJz+vwfmxs7Kl3vVckhgAOMmuk/dRe1Mov8XqO+sbu7u5Rpbrd5QK+vqdFIggg7b+RupdNVADKybpisVjn5nZc2mpJ30/43lPr5HXsCQD8OsFeQjUB0H/wsoHz/195LUvAL5L2gU+LWBMA+B8AuYhq0g48vi3NCYOtIcDf5jJQYksAN7wNor6AamILnk5fuDl2BI9PPP9dntX8yOqdEwEq2nIAv4LvtNI38DKWGcC+PWVELMD7YoWopuHXR98S4G+Y9UG2b9Agx8Os5+ZWNOf3wGs3QsCvccO7avp2shNBgAmgHXh8vgLed06gvqM4E8C7tvGotVQqaSc59r92R6/X63k5ZzvwrPx30t53TuiI3Gt0JoB0LEet+Xx+wotnrwCQltq80pqTc+KgtWGvs/K+RyX1VmJDwBurkQ7HSaz85H6mDiWA1HrMBOI0RnEwQoprA5tbQGv0DLJkg9i6XnlvGLtzABNNcs4u0GmW4LRvb1HYpHidsVWpdhoXx2XS3ndIot5ZQjNAjij+QRoiHnG60r69RWEz7m85jyixZzqNS3vX7wPE+KpaE6B2StN1RkCaVrMbLInPgG5Aq33+AQAA//8RzcsnAAAABklEQVQDALp3xq453UViAAAAAElFTkSuQmCC"
+    },
+    "book": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADpklEQVR4AeybwWsTQRTGu7tpRUERRNDapA21ICJFJecKguJBVPDUf0C8WLx58+DJiwfFi+BZb4qCiF4EPerBIkVQMSVNSi4R9BAhJht/E5plMiRkJs1uutkp73XmvZnOm/fNN5suM3EnEv5jAUg4ASYsAywDhoDAxsbGSrFYfFEoFPKUI1fms6Cb1sBboFKp7CNQFW0S7H6z2bzkOM4c5cg1lUpNMictGQgAVvp8tVr9TYTdaKzFGABWfJGVfhPrrKXJGwPA366iqqx6nnemXq9nhdL4DQ3Edd1zwh+WEqgjXq1Ww6UnRgCw+q/VYX3fn0+n0yenp6ffZ7PZdaH0+YcGQuKbwh+WEqgjHra2GAHAqBfQQHjgLc3Ozv4MHFsV/M5WtVVMTU21yrB+bSeeKQAdOWQymQ8djhga2gDw+X5Aya+i2LE0tQFoNBqHlAzLih1LUxuAWGbXZdKqywKgIpI02zIgaSuu5msZoCKSNNsyIGkrruZrGaAikjTbMiBpK67maxmgIpI02zJg3Fe8X36WAf0QGvd2y4BxX+F++VkG9ENo3NstA8Z9hfvlZxnQD6F2Oye84ipM25zgRDaoc2x+q1AofOT8sHU/yHGco0EjFY7H37bbwijVeKHdDyAXWXaR+B9UAHOXSeQApXU/iE7qefiRdlsYZZd4uPREewuAaseZPwmLVd6rFybaXrBVO6A2ANojxqyjNgCgKqjeK73PUDu4I8Seb90VCrMk3m11MrCyjl4slUrf1bZetjYAvQbAv5BOp09lMpngjlBYd4HkcUn0DrEDAZC1mZmZSfRVLpfTvjOkDYD6DBCRCbpE8j9EPUrlE2dejccCnBA+U9UGoNvABB3JHSFW/6Yyn8eKrW0ODACr/0s7ypA7AsBpeUjsp7JtUtcGwPO8jjtBBG2YBBpyX18ez/f9umyb1LUB4OGi3go7aBJoyH0/yeO5rrss2yZ1bQC6DcrD6Eo3fwS+e3IMtuN12TapmwLwTB6cbfA8n88fk31R1GFjUY3Dv+Rrqk/HNgKAj7yr6qCpVOorTNhElwFjLiplHg9QWY4DQh29BiNC/b7AohxV1GHCYfQJYOSjUuKuoKp4OB6Vy+XwvjECC76Q7FkCjYUYbYF2xuzBd9T3QDXxrRGq8ZWBABDpwoS//Ce4n1K8Jt+AFS8BZJ1y5MpL2PDfBUTSvRQQHsKKywCSpRy5Mp9I3wZ74RIL/8BbIBbZaUzSAqAB0o7ust3J/QcAAP//SZHTYgAAAAZJREFUAwBJ68uu7KnD8gAAAABJRU5ErkJggg=="
+    },
+    "volumes": {
+      "asset_type": "image",
+      "content_type": "image/png",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFBklEQVR4AeyaS2hcVRjHc++MkyEFrdYUM8lMMkTQlgq60I1FpS6EbiqCwY2KZNH6QqTgA19RFAtCFtJCuimCgguFiiC6UdEqQXChYFUkQh4zKcXSUtvSJp3J9PcNc0/vubl3zkxmkqF3Tjj/nHO+9/ed795ZnOv2dPmfLUCXN0CP7QDbAV1eAfsIdHkD2JegfQRaeQQqlYpbLBazc3NzN05MTGxoMcWn+G4lftFtKOhCobB3YWHhJKj4Ab28srIy77ru6fHx8bKfNz8/f4b9KxQpKY7WCuw8A05gS/MtPsV3kF7bF9F5qhGfkQXA0Jug6pQkpjC2FTQ8HMfZjPD7FOmy2CGgL7CTgGYcyB8EVd/YOQRuMSrpAhl0jng2iOFFnX11t6oAKBVABZG3QdsGAe0hkBK2LzBvCRqmOA68v4D4fjbIb2WP7UmxyyEcD9rRCoDQeQQGQTOjgIP/m1DoQ/4Uvv7zdFh/RVFW2N8OGhrYEJ8LCF8GDQ0OYTu+TvmFtQLA2ASixnc4vSObzToBZHO53A1+2vT0dBLZ/Rg6DaLGzQRTbXMEdoOocRFbrw8NDV3n91HzmYOWAlpMvBv2oXM2zCA0rftUAXirboepDSr2GY7TNQcP4vQPTSBiMzY2VkZ2Er0twCGY8QjReuQPRBf0Yes9YinVE/bzhoeHD6OzGV0H+odAG7Ozs9s8gioABBFmUuM4yY/heElR1rggmCMSTKlUugsT8owzRY7nRRa8FCnRBAM7L3AAf/pVent7Va7+Avhl1mWdz+d/IyCXgJ4LcfAjPGnlgyG8dSNtaAG8LOiIQ97am0n+fm+9kXNHCrCRCZp82QKYKhR3vu2AuJ+wKT/bAaYKxZ1vOyDuJ2zKz3aAqUJx58e+A0wHaAtgqlDc+bYD4n7CpvxsB5gqFHe+7YC4n7ApP9sBpgrFnW87IO4nbMpPdUAqldKurLi90XS5O9zJ9fKnXGgWQfVSM2I+j9wU8vdqBlrYcHO8C19HwSUQ6Ru/S+AXZF5eXFzMeS653tNyW15e9lhXP5LyE4UrSjh+A2NVh67rHoP2GLwMqDc2IbcX+Z88Xex8REB99ZSCPBJ5zdPnML6F/zDoBZEDvylwDwIHyuXynKfPPvLKX3UAQurCkLWMHTh+RxatAjtPEtAFAiqT2ENR9mZmZrYiU+0wEnk3Sm4NdPlaRanR7WqtCpBIJKLu05VwGxYuiX1DklpLil2hcWt7krWpwxCJHo1wOAz5uKIqqgrAVXihSqnzj5NcIoFJ5lu5zJSb3FWgkHcjcxgzZdDO8T12HyVO73sFzXc6nZY2fxWHxjywoWRUAVDswcETMgfwezKZ3CEJc6ubRnk/878BGbXNZDK/IrMP+SRweBfspGBnlECDC2KRDyIeERs17MLu59BDv1fo7+9fRO4AkOHwTpO2/yHE3Vt+mlYAHHyMtnzRsadUKm2TNbhzYGBg1cdFfiP11oODgz9TsJuwI++YT+rJ1nj/EEcSyCcxR2u0pqfR0dGz+HwAiN/dHMIUrZ9hr73XtAJ4Xgj4y3w+/7e3b9eM88eBFPhYiM1zJC3tfRun3NbHB59fk9PTIyMjJ4J+QwsQFGr3nmDuw6b8LMqXYT3ymBDk9SQe2t7IrtvoSAEkGxK+CBLAkcdEaJ1AxwrQiWTDfNoChFWlm2i2A7rptMNytR0QVpVuotkO6KbTDsv1mu+AsKSaoV0BAAD//0ezTaQAAAAGSURBVAMAqL1hn+9t4/QAAAAASUVORK5CYII="
+    }
+  }
+}
